@@ -1,0 +1,50 @@
+
+body{
+    background-color: pink;
+}
+.container{
+    display: flex;
+    background-color: black;
+    color: yellow;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 15px;
+}
+.container ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+.container ul li{
+    margin: 0;
+    padding: 10px 20px;
+    
+}
+.container ul li:hover{
+    color:blue;
+    cursor: pointer;
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    color:red;
+    font: bold;
+    cursor: pointer;
+    justify-content: left;
+}
+.signin {
+    background-color:rgba(3, 180, 229, 0.984);
+}
+.signout {
+    background-color:rgba(3, 180, 229, 0.984);
+}
+.signin:hover{
+    color: black;
+}
+.signout:hover{
+    color: black;
+}
